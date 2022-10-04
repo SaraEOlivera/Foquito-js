@@ -1,0 +1,35 @@
+* {
+  box-sizing: 0;
+  margin: 0;
+  padding: 0;
+  background-color: rgb(70, 67, 67);
+}
+
+.foquito {
+  position: fixed;
+  top: 5%;
+  left: 20%;
+  width: 700px;
+  height: 500px;
+  background-image: url("../imagenes/apagado-1.png");
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.boton-foquito {
+  position: fixed;
+  top: 87%;
+  left: 45%;
+  width: 150px;
+  height: 60px;
+  background-image: url("../imagenes/off.png");
+  /*background-position: center;*/
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-color: transparent;
+}
+
+.foquito.encendido {
+  background-image: url("../imagenes/encendido-1.png");
+}
